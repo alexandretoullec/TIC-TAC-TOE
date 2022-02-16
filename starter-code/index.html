@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Tic Tac Toe</title>
+</head>
+<body>
+
+  <main class="container">
+    <div id="x"></div>
+    <div class="pres-container">
+
+      <div class="log-cont">
+        <i ><img id="x" src="./assets/icon-x.svg" alt=""></i>
+        <i ><img id="o" src="./assets/icon-o.svg" alt=""></i>
+      </div>
+
+      <div class="turn-cont">
+        <i><img src="./assets/icon-x.svg" alt=""></i>
+        <p>TURN</p>
+      </div>
+
+      <button type="button"><img src="./assets/icon-restart.svg" alt=""></button>
+    </div>
+
+
+
+    <div class="game-container">
+        <div class="cell" data-index="0"></div>
+        <div class="cell" data-index="1"></div>
+        <div class="cell" data-index="2"></div>
+        <div class="cell" data-index="3"></div>
+        <div class="cell" data-index="4"></div>
+        <div class="cell" data-index="5"></div>
+        <div class="cell" data-index="6"></div>
+        <div class="cell" data-index="7"></div>
+        <div class="cell" data-index="8"></div>
+    </div>
+
+    <div class="res-container">
+      <div class="X-count">
+        <p class="title-count" > X (you)</p>
+        <p class="num-count"> 14 </p>
+      </div>
+      
+      <div class="ties-count">
+        <p class="title-count" > TIES</p>
+        <p class="num-count"> 32 </p>
+      </div>
+
+      <div class="Y-count">
+        <p class="title-count" > Y (CPU)</p>
+        <p class="num-count"> 11 </p>
+      </div>
+    </div>
+
+
+    <h2 class="info"></h2>
+
+  </main>
+
+  <script src="app.js"></script>
+
+
+
+
+  <!-- New game menu start -->
+
+  <!-- Pick player 1's mark
+  Remember: X goes first
+
+  New Game (vs CPU)
+  New Game (vs player) -->
+
+  <!-- New game menu end -->
+
+  <!-- Game board start -->
+
+  <!-- turn -->
+
+  
+
+  <!-- Oh no, you lost
+  You won!
+  Player wins!
+
+   takes the round
+  Round tied
+  Restart game?
+
+  Quit
+  Next round
+  No, cancel
+  Yes, restart
+
+  Game board end -->
+
+</body>
+</html>
